@@ -1,0 +1,42 @@
+id: Void
+disabled: false
+weight: 100
+item:
+  material: ender_eye
+format: <#A719CD>{name}
+worth-multiplier: 0.15
+broadcast:
+  enabled: false
+  only-rods: false
+  range: -1
+size:
+  minSize: 200
+  maxSize: 300
+requirements:
+  fishing-type: void
+fish:
+  Nebula Carp:
+    item:
+      glowing: true
+      displayname: Туманный карп
+  Purpur Perch:
+    item:
+      material: popped_chorus_fruit
+      displayname: Пурпурный окунь
+  Ender Minnow:
+    item:
+      material: ender_pearl
+      displayname: Эндер-гольян
+  Purpur Pike:
+    item:
+      material: popped_chorus_fruit
+      displayname: Пурпурная щука
+  Shulkerfin:
+    item:
+      material: shulker_shell
+      displayname: Шалкеропер
+  Shulker Shellfish:
+    item:
+      material: shulker_shell
+      displayname: Шалкеровый моллюск
+displayname: <dark_aqua>Пустотная

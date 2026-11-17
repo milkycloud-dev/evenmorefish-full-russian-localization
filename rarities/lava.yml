@@ -1,0 +1,58 @@
+id: Lava
+disabled: false
+weight: 100
+item:
+  material: lava_bucket
+format: <#DD571C>{name}
+worth-multiplier: 0.15
+broadcast:
+  enabled: false
+  only-rods: false
+  range: -1
+size:
+  minSize: 200
+  maxSize: 300
+requirements:
+  fishing-type: lava
+fish:
+  Magma Minnow:
+    item:
+      material: magma_block
+      glowing: true
+      fire-resistant: true
+      displayname: Магматический гольян
+  Obsidian Pike:
+    item:
+      material: obsidian
+      fire-resistant: true
+      displayname: Обсидиановая щука
+  Ember Eel:
+    item:
+      material: string
+      fire-resistant: true
+      displayname: Тлеющий угорь
+  Crimson Carp:
+    item:
+      fire-resistant: true
+      displayname: Багровый карп
+  Blaze Fin:
+    item:
+      material: blaze_powder
+      fire-resistant: true
+      displayname: Огненный плавник
+  Glowstone Goby:
+    item:
+      material: glowstone_dust
+      fire-resistant: true
+      displayname: Светящийся бычок
+  Magma Jellyfish:
+    item:
+      material: magma_cream
+      fire-resistant: true
+      displayname: Магматическая медуза
+  Obsidian Bream:
+    item:
+      material: obsidian
+      fire-resistant: true
+      displayname: Обсидиановый лещ
+displayname: <red>Лавовая

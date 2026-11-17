@@ -1,0 +1,48 @@
+id: Junk
+disabled: false
+weight: 5
+item:
+  material: white_concrete_powder
+format: <#888888>{name}
+worth-multiplier: 0
+broadcast:
+  enabled: false
+  only-rods: false
+  range: -1
+catch-type: both
+sort-index: 1
+size:
+  minSize: -1
+  maxSize: -1
+requirements:
+  fishing-type: vanilla
+fish:
+  Rusty Bucket:
+    item:
+      material: BUCKET
+      displayname: Ржавое ведро
+  Rusty Spoon:
+    item:
+      material: IRON_SHOVEL
+      displayname: Ржавая ложка
+  Lost Fishing Rod:
+    item:
+      material: FISHING_ROD
+      displayname: Потерянная удочка
+  Explorers Boat:
+    item:
+      displayname: Лодка исследователя
+      materials:
+      - OAK_BOAT
+      - SPRUCE_BOAT
+      - BIRCH_BOAT
+      - ACACIA_BOAT
+      - JUNGLE_BOAT
+      - DARK_OAK_BOAT
+      - MANGROVE_BOAT
+  Old Fishers Hat:
+    item:
+      material: LEATHER_HELMET
+      dye-colour: '#888877'
+      displayname: Старая рыбацкая шляпа
+displayname: <#888888>Мусор

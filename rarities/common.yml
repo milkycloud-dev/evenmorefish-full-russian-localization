@@ -1,0 +1,106 @@
+id: Common
+disabled: false
+weight: 100
+item:
+  material: light_gray_concrete_powder
+format: <gray>{name}
+worth-multiplier: 0.1
+broadcast:
+  enabled: false
+  only-rods: false
+  range: -1
+catch-type: both
+sort-index: 2
+size:
+  minSize: 1
+  maxSize: 30
+requirements:
+  fishing-type: vanilla
+fish:
+  Cod:
+    item:
+      displayname: Треска
+  Atlantic Cod:
+    requirements:
+      biome:
+      - COLD_OCEAN
+      - DEEP_COLD_OCEAN
+      - DEEP_LUKEWARM_OCEAN
+      - DEEP_OCEAN
+      - LUKEWARM_OCEAN
+      - OCEAN
+      - WARM_OCEAN
+    item:
+      displayname: Атлантическая треска
+  Rockfish:
+    item:
+      displayname: Морской окунь
+  Tuna:
+    item:
+      displayname: Тунец
+  Mackerel:
+    item:
+      displayname: Скумбрия
+  Spanish Mackerel:
+    item:
+      lore:
+      - <gray>Hola!
+      displayname: Королевская макрель
+  Salmon:
+    item:
+      material: SALMON
+      displayname: Лосось
+  Pufferfish:
+    item:
+      material: PUFFERFISH
+      displayname: Иглобрюх
+    effect: POISON:1:2
+  Tropical Fish:
+    item:
+      material: TROPICAL_FISH
+      displayname: Тропическая рыба
+  Red Mullet:
+    item:
+      displayname: Барабулька
+  Anchovy:
+    item:
+      displayname: Анчоус
+  Haddock:
+    item:
+      displayname: Пикша
+  Bluefish:
+    item:
+      displayname: Луфарь
+  Carp:
+    item:
+      displayname: Карп
+  Silver Carp:
+    item:
+      displayname: Толстолобик
+  Grass Carp:
+    item:
+      displayname: Белый амур
+  Koi Carp:
+    item:
+      displayname: Карп кои
+  Black Carp:
+    item:
+      displayname: Черный амур
+  Lemon Shark:
+    item:
+      displayname: Лимонная акула
+  Sea Snail:
+    item:
+      material: NAUTILUS_SHELL
+      displayname: Морская улитка
+  Eel:
+    item:
+      displayname: Угорь
+  Tadpole:
+    item:
+      displayname: Головастик
+  Seagull Feather:
+    item:
+      material: FEATHER
+      displayname: Перо чайки
+displayname: <gray>Обычная
