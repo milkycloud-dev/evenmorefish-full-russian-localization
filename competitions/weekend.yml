@@ -1,0 +1,4 @@
+# Competition configuration template (tournaments disabled)
+disabled: true
+times: []
+days: {}

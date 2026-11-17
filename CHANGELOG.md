@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 (2026-11-17)
+
+- Fix bossbar layout spacing: added missing space in `bossbar.layout` (`{time-formatted} <reset>{remaining}`) preventing formatted time and remaining label from concatenating (`9м 9состалось` -> `9м 9с осталось`).
+- Fix typo in `time-alert`: corrected `оконцания` to `окончания`.
+- 100% full Russian localization of `messages.yml`: translated all admin commands, help page, leaderboard metrics, bait lore, AFK messages, and system alerts.
+- Added comprehensive tournament management and competition configuration guide to README.md, documenting the recursive file loading behavior in `competitions/` and safe backup placement.
+
 ## 1.0.0 (2026-11-17)
 
 First public release of the Russian localization package for EvenMoreFish v2.5.3.
