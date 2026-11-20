@@ -1,4 +1,28 @@
-# Competition configuration template (tournaments disabled)
+# The default sunday competition.
+# See _example.yml for all options.
+
+id: sundayCompetition
 disabled: true
-times: []
+type: MOST_FISH
+duration: 45
+minimum-players: 1
 days: {}
+alerts: []
+bossbar-colour: RED
+bossbar-prefix: '<bold><red>Воскресный турнир по рыбалке: '
+
+rewards:
+  '1':
+  - MESSAGE:<green>Поздравляем с 1 местом! Вы получили 10000 опыта и 12 алмазов!
+  - EXP:10000
+  - ITEM:DIAMOND,12
+  '2':
+  - MESSAGE:<green>Поздравляем со 2 местом! Вы получили 5000 опыта и 8 алмазов!
+  - EXP:5000
+  - ITEM:DIAMOND,8
+  '3':
+  - MESSAGE:<yellow>Поздравляем с 3 местом! Вы получили 2500 опыта и 4 алмаза!
+  - EXP:2500
+  - ITEM:DIAMOND,4
+  participation:
+  - MESSAGE:<yellow>К сожалению, только топ-3 игроков получают награды. Повезет в следующий раз! :)

@@ -67,16 +67,16 @@ duration:
 # replace the {fish_lore}, however if it's empty the line will be removed. DO NOT ADD ANYTHING OTHER THAN THIS VARIABLE
 # TO THAT LINE.
 fish-lore:
-  - '<white>Поймал: {player}'
-  - '<white>Размер: {length}см'
+  - '{fisherman_lore}'
+  - '{length_lore}'
   - ''
   - '{fish_lore}'
   - '{rarity_colour}<bold>{rarity}'
 # Sets what to replace with the {fisherman_lore} or {length_lore} with above ^
 fisherman-lore:
-  - <white>Caught by {player}
+  - <white>Поймал: {player}
 length-lore:
-  - <white>Measures {length}cm.
+  - <white>Размер: {length}см
 # The format of the leaderboard after a competition is over
 leaderboard:
   largest-fish: '<white>#{position} | {player} (<b>{rarity}</b> {fish}, {length}см)'

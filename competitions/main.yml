@@ -1,4 +1,29 @@
-# Competition configuration template (tournaments disabled)
+# The default main competition
+# See _example.yml for all options.
+
+id: mainCompetition
 disabled: true
+type: LARGEST_FISH
+duration: 10
+minimum-players: 1
 times: []
-days: {}
+blacklisted-days:
+- Sunday
+bossbar-colour: BLUE
+bossbar-prefix: '<bold><aqua>Турнир по рыбалке: '
+
+rewards:
+  '1':
+  - MESSAGE:<green>Поздравляем с 1 местом! Вы получили 5000 опыта и 3 алмаза!
+  - EXP:5000
+  - ITEM:DIAMOND,3
+  '2':
+  - MESSAGE:<green>Поздравляем со 2 местом! Вы получили 2500 опыта и 2 алмаза!
+  - EXP:2500
+  - ITEM:DIAMOND,2
+  '3':
+  - MESSAGE:<yellow>Поздравляем с 3 местом! Вы получили 1000 опыта и 1 алмаз!
+  - EXP:1000
+  - ITEM:DIAMOND,1
+  participation:
+  - MESSAGE:<yellow>К сожалению, только топ-3 игроков получают награды. Повезет в следующий раз! :)
