@@ -74,9 +74,9 @@ fish-lore:
   - '{rarity_colour}<bold>{rarity}'
 # Sets what to replace with the {fisherman_lore} or {length_lore} with above ^
 fisherman-lore:
-  - <white>Поймал: {player}
+  - '<white>Поймал: {player}'
 length-lore:
-  - <white>Размер: {length}см
+  - '<white>Размер: {length}см'
 # The format of the leaderboard after a competition is over
 leaderboard:
   largest-fish: '<white>#{position} | {player} (<b>{rarity}</b> {fish}, {length}см)'

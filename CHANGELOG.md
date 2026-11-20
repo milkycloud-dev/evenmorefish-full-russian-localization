@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 (2026-11-20)
+
+- Fish lore uses `{fisherman_lore}` and `{length_lore}` again, so fish without a length no longer show a literal `{length}`; both lore templates are translated.
+- `competitions/main.yml`, `sunday.yml` and `weekend.yml` are complete disabled templates with `id`, `type` and `duration`.
+
 ## 1.0.1 (2026-11-17)
 
 - Fix bossbar layout spacing: added missing space in `bossbar.layout` (`{time-formatted} <reset>{remaining}`) preventing formatted time and remaining label from concatenating (`9м 9состалось` -> `9м 9с осталось`).
